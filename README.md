@@ -41,6 +41,7 @@ To build your code, open a command prompt and enter the following commands:
     * Inside the interactive Docker shell, this will install the nerves_bootstap hex package.
 3. `git clone {repo}`
     * This will pull down the code via git. If you are getting code into the Docker image some other way, you can skip this.
+    * This quick walkthrough doesn't cover setting up SSH keys, so you will need to use https to clone the repo (or, set up the SSH keys).
     * To use one of the example projects, you can do this: `git clone https://github.com/nerves-project/nerves_examples`.
 4. `export MIX_TARGET=rpi3`
     * This sets your Nerves target. I mostly play around with Raspberry Pi 3s.
